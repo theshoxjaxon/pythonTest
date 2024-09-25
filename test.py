@@ -57,8 +57,75 @@ else:
 # print("The sum of the two numbers is", f"{z:,}")
 
 
-def main():
-    print("Hello World")
-    print("This is a new line")
+# def main():
+#     print("Hello World")
+#     print("This is a new line")
 
-main()
+# main()
+
+
+# Ex 1.
+
+# for x in range(7, 78):
+#     if(x % 15 == 0):
+#         print(x)
+    
+# x = str(input("Please enter your name"))
+
+# # Reverse the string and convert it to uppercase
+# print(x[::-1].upper())
+
+
+# x = str(input("Please enter your name"))
+# print(''.join(reversed(x)).capitalize())
+
+
+# x = str(input("Please enter your name"))
+# print(x[::-1].cp() + x[1:-1] + x[-1].capitalize())
+
+
+# name = input("Please enter your name")
+
+# rn = name[:: -1].capitalize()
+# print(name[1:-1] + rn)
+# def main():
+#     x = get_in()
+#     print(" You entered:", x)
+    
+
+
+# def get_in():
+#     while True:
+#         try:
+#             return int(input(" Please enter a number: "))
+#         except ValueError:
+#             pass
+        
+        
+        
+# main()
+
+# while True:
+#     try:
+#         x = int(input(" Please enter a number: "))
+#         y = int(input("Please enter a divided number: "))
+#         result = x / y
+#     except (ZeroDivisionError, ValueError):   
+#         print("Are you sure about that ?")
+#     else:
+#         break
+# print("the answer is", result)
+
+
+# import random
+# userInput = int(  input("Please enter a number between 1 and 10: "))
+# x =  random.randint(1, 10)
+# while  userInput != x:
+#     if userInput < x:
+#         print("Your number is too low")
+#     else:
+#         print("Your number is too high")
+#     userInput = int(  input("Please enter a number between 1 and 10: "))
+# print(x)
+
+
