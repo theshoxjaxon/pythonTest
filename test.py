@@ -11,6 +11,7 @@ else:
 
 
 """
+
 # ! Task 2
 
 # num = int(input("Please enter a number: "))
@@ -20,7 +21,6 @@ else:
 # else:
 #     print("The number is odd")
 
-    
 
 # ! Task 3
 # sum = 0
@@ -41,7 +41,7 @@ else:
 #         print("Your guess is too low")
 #     else:
 #         print("Your guess is too high")
-    
+
 #     # Prompt for another guess
 #     guess = int(input("Guess a number between 0 and 10: "))
 
@@ -69,7 +69,7 @@ else:
 # for x in range(7, 78):
 #     if(x % 15 == 0):
 #         print(x)
-    
+
 # x = str(input("Please enter your name"))
 
 # # Reverse the string and convert it to uppercase
@@ -91,7 +91,6 @@ else:
 # def main():
 #     x = get_in()
 #     print(" You entered:", x)
-    
 
 
 # def get_in():
@@ -100,9 +99,8 @@ else:
 #             return int(input(" Please enter a number: "))
 #         except ValueError:
 #             pass
-        
-        
-        
+
+
 # main()
 
 # while True:
@@ -110,7 +108,7 @@ else:
 #         x = int(input(" Please enter a number: "))
 #         y = int(input("Please enter a divided number: "))
 #         result = x / y
-#     except (ZeroDivisionError, ValueError):   
+#     except (ZeroDivisionError, ValueError):
 #         print("Are you sure about that ?")
 #     else:
 #         break
@@ -128,4 +126,30 @@ else:
 #     userInput = int(  input("Please enter a number between 1 and 10: "))
 # print(x)
 
+# import sys
+# if len(sys.argv) < 2:
+#     sys.exit("Too few  arguments")
+# elif len(sys.argv) > 2:
+#     sys.exit("Too many arguments")
 
+# print("hello my name is", sys.argv[1])
+
+
+# def plusOne(digit):
+#     for i in  range(len(digit)-1, -1, -1):
+#         if digit[i] == 9:
+#             digit[i] = 0
+#         else:
+#             digit[i] += 1
+#             return digit
+#     return [1] + digit
+
+
+# print(plusOne([1,2,3]))  # Output: [1,2,4]
+# print(plusOne([4,3,2,1]))  # Output: [4,3,2,2]
+# print(plusOne([9]))  # Output: [1,0]
+
+
+thisList = ["Apple", "Banana", "Cherry", "Date", "Elderberry"]
+for item in range(len(thisList)):
+    print(thisList[item])  # Output: Apple, Banana, Cherry, Date, Elderberry
