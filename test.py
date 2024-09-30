@@ -150,6 +150,13 @@ else:
 # print(plusOne([9]))  # Output: [1,0]
 
 
-thisList = ["Apple", "Banana", "Cherry", "Date", "Elderberry"]
-for item in range(len(thisList)):
-    print(thisList[item])  # Output: Apple, Banana, Cherry, Date, Elderberry
+# thisList = ["Apple", "Banana", "Cherry", "Date", "Elderberry"]
+# newList = []
+# for x in thisList:
+#     if "a" in x:
+#         newList.append(x)
+# print(newList)
+# thisset = {1, "Sean"}
+# thisset.add(2)
+# thisset.add("Sean")
+# print(thisset)  # Output: {1, 'Sean', 2}  # Note
